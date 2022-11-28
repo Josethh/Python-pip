@@ -80,7 +80,7 @@ git add *
 
 git commit -m “Mi primer archivo”
 
-git push origin master
+git push -u origin master
 
 Refrescar pagina y revisar
 
