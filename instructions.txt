@@ -1,0 +1,87 @@
+Hola Chicos! 😄
+
+Comandos básicos en la terminal, con esto iniciamos el proyecto:
+
+pwd: Indica en qué ubicación estamos
+
+mkdir: Crear una nueva carpeta
+
+ll: Lista de archivos
+
+cd: Nos permite abrir una carpeta
+
+clear: Nos permite despejar la terminal
+
+git init: Inicializar
+
+touch: Crear archivos
+
+Otros comandos
+
+rm: sirve para borrar archivos
+
+rmdir: sirve para borrar directorios
+
+mv: sirve para mover directorios
+
+df: indica el espacio en disco, el disponible, usado y total
+
+
+
+Hola chicos! 😄
+Comandos Utilizados
+
+python
+
+python3
+
+exit() para salir de la interfaz de python
+
+Instalación
+
+apt update
+
+sudo apt update
+
+sudo apt -y upgrade
+
+Verificar Instalación de python
+
+python3 -V
+Instalación de gestor de paquetes de dependencias
+
+sudo apt insstall -y python3-pip
+Verificar Instalación del gestor
+
+pip3 -V
+Dependencias en entorno profesional
+
+apt install -y build-essential libssl-dev libffi-dev python3-dev
+
+
+
+Hola Chicos! 😄
+
+Crear repositorio en GITGUB
+
+Comando para enlazar e inicializar
+
+ll
+
+git init
+
+ll
+
+git remote add origin (enlace gitgub)
+
+git remote -v
+
+git add *
+
+git commit -m “Mi primer archivo”
+
+git push origin master
+
+Refrescar pagina y revisar
+
+Despues de tener los dos archivos .gitignore y README.md_ agregarlo al gitgub, revisar que esten los tres archivos cargados.
