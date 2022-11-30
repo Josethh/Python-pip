@@ -8,6 +8,8 @@ mkdir: Crear una nueva carpeta
 
 ll: Lista de archivos
 
+ll <carpeta>: Lista los archivos de la carpeta
+
 cd: Nos permite abrir una carpeta
 
 clear: Nos permite despejar la terminal
@@ -84,4 +86,71 @@ git push -u origin master
 
 Refrescar pagina y revisar
 
+Para obtener un buen .gitignore digita en el navegador gitignore.io; luego de tener los resultados digita en la barra de busqueda
+los sistemas operativos "windows, linux, macOS" y "python"; despues de generar el paper, lo copia y lo pega en el archivo .gitignore
+
 Despues de tener los dos archivos .gitignore y README.md_ agregarlo al gitgub, revisar que esten los tres archivos cargados.
+
+Mirar la version de pip3
+pip3 -v
+
+Instalar librerias 
+pip3 install <libreria>
+
+Listar librerias del entorno global
+pip3 list 
+
+Listar librerias instaladas por el usuario
+pip3 freeze
+
+Para instalar una version especifica de una libreria 
+pip3 install matplotlib==3.5.0
+
+Hola Chicos! 😄
+Verificar donde esta python y pip
+which python3
+which pip3
+
+Si estas en linus o wsl debes instalar
+sudo apt install -y python3-venv
+
+Poner cada proyecto en su propio ambiente, entrar en cada carpeta.
+python3 -m venv env
+
+Activar el ambiente
+source env/bin/activate
+
+Salir del ambiente virtual
+deactivate
+
+Podemos instalar las librerias necesarias en el ambiente virtual como por ejemplo
+pip3 install matplotlib==3.5.0
+
+Verificar las instalaciones
+pip3 freeze
+
+Hola Chicos! 😄
+Requirements.txt = Archivo que gestiona todas las dependencias y en que versiones se necesitan.
+
+Generar el archivo con el siguiente comando
+
+pip3 freeze > requirements.txt
+Revisar lo que hay dentro del archivo
+
+cat requirements.txt
+Instalar las dependencias necesarias para contribuir más rápido en proyectos
+
+pip3 install -r requirements.txt
+Preparar archivo para contribución
+
+# App Project
+```sh
+git clone
+cd app
+python3 -m venv env
+source env/bin/activate
+pip3 install -r requirements.txt
+python3 main.py
+Y luego subir los cambios a Gitgub
+
+Llega luego el profe Juan DC 😃 JAJAJJAJAJA para hacer una Hermosa Contribución.
