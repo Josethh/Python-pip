@@ -154,3 +154,37 @@ python3 main.py
 Y luego subir los cambios a Gitgub
 
 Llega luego el profe Juan DC 😃 JAJAJJAJAJA para hacer una Hermosa Contribución.
+
+Para inicializar un servidor con FastAPI y uvicorn
+uvicorn main:app --reload.
+
+
+Docker
+
+Para crear el contenedor donde vamos a correr la aplicacion
+docker-compose build
+
+Para lanzar, crear ó levantar el contenedor 
+docker-compose up -d 
+
+Para ver el estado de ese contenedor
+docker-compose ps 
+
+Para ingresar al contenedor 
+docker-compose exec app-csv bash 
+
+Para salir del contenedor 
+exit
+
+Para bajar, remover ó eliminar el contenedor 
+docker-compose down 
+
+Para enlazar el archivo en el que estoy trabajando en "app" con el que esta en el contenedor
+
+volumes:
+  - .:/app
+
+Para enlazar el servidor en "web-server" con el servidor del contenedor 
+
+ports:
+ - '80:80'
